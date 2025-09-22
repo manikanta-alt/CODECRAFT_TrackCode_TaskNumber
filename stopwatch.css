@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0f172a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+  text-align: center;
+}
+
+#display {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.start { background: #16a34a; color: white; }
+.stop { background: #dc2626; color: white; }
+.reset { background: #2563eb; color: white; }
